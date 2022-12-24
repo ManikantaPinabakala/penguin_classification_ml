@@ -89,7 +89,7 @@ if island == 'Biscoe':
 elif island == 'Dream':
 	island_name = 1
 else:
-	island_name = 'Torgersen'
+	island_name = 2
 
 classifier = st.sidebar.selectbox("Classifier", ("Support Vector Machine", "Logistic Regression", "Random Forest Classifier"))
 
